@@ -1,0 +1,16 @@
+/* Subtle background and nicer scrollbars */
+:root { color-scheme: light dark; }
+html, body, #root { height: 100%; }
+body { background: linear-gradient(180deg, #fafafa, #f6f7fb); }
+
+@media (prefers-color-scheme: dark) {
+  body { background: linear-gradient(180deg, #0b0b0c, #0f1115); }
+}
+
+* { scrollbar-width: thin; scrollbar-color: #bbb transparent; }
+*::-webkit-scrollbar { height: 10px; width: 10px; }
+*::-webkit-scrollbar-thumb { background: #cfcfcf; border-radius: 999px; }
+@media (prefers-color-scheme: dark) {
+  * { scrollbar-color: #555 transparent; }
+  *::-webkit-scrollbar-thumb { background: #4b5563; }
+}
