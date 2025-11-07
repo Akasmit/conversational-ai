@@ -27,7 +27,7 @@ export function SuggestedPrompts() {
                        focus:ring-2 focus:ring-neutral-400 focus:outline-none px-4 py-3 text-sm shadow-sm
                        whitespace-normal min-h-[56px]"
           >
-            <span className="xl:pr-32 line-clamp-2 break-normal leading-snug">{p}</span>
+            <span className="line-clamp-2 break-normal leading-snug">{p}</span>
           </button>
         ))}
       </div>
