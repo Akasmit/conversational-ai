@@ -5,10 +5,10 @@ import { MockRuntimeProvider } from "@/lib/MockRuntimeProvider";
 
 export default function App() {
   return (
-    <MockRuntimeProvider>
+    // <MockRuntimeProvider>
       <AppShell>
         <ChatCard />
       </AppShell>
-    </MockRuntimeProvider>
+    // </MockRuntimeProvider>
   );
 }

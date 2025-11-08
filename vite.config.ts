@@ -5,11 +5,8 @@ import path from 'node:path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    proxy: {
-      "/api": "http://localhost:8787",
-    },
-  },
+  // vite.config.ts
+server: { port: 5174, proxy: { "/api": "http://localhost:8787" } },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
