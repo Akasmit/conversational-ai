@@ -8,7 +8,7 @@ export function ThemeToggle() {
     return (
       <button 
         onClick={toggle} 
-        className="h-9 rounded-xl border px-3 text-sm bg-white hover:bg-neutral-50 dark:bg-white dark:hover:bg-neutral-100 dark:text-black dark:border-black shadow-sm"
+        className="h-9 rounded-xl border border-white/20 px-3 text-sm bg-white/10 hover:bg-white/20 text-white backdrop-blur"
       >
         Toggle theme
       </button>
