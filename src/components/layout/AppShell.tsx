@@ -3,7 +3,7 @@ import { Sidebar } from "./Sidebar";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   return (
-    <div className="h-screen w-full flex flex-col bg-neutral-50 dark:bg-neutral-900 overflow-hidden">
+    <div className="h-screen w-full flex flex-col bg-background text-foreground overflow-hidden">
       <Topbar />
       <div className="flex-1 min-h-0 flex overflow-hidden">
         <Sidebar />
